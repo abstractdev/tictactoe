@@ -18,12 +18,13 @@
     <div class="main">
       <div class="left-side">
         <form>
-          <label for="name">Name</label>
-        <input type="text" name="name" id="name">
+          <label for="player1-name">Player 1</label>
+        <input type="text" name="player1-name" id="player1-name" class="player1-name">
         </form>
         <div class="player-container">
         </div>
         <div class="player-button-container">
+          <button type="submit" class="player-button">Start Game</button>
         </div>
       </div>
       <div class="game-container">
@@ -38,7 +39,10 @@
         <div class="square9" data-index="9"></div>
       </div>
       <div class="right-side">
-        <h3>Computer</h3>
+        <form>
+          <label for="player2-name">Player 2</label>
+        <input type="text" name="player2-name" id="player2-name" class="player2-name">
+        </form>
         <div class="computer-container">
         </div>
       </div>
